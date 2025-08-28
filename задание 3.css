@@ -1,0 +1,41 @@
+body {
+    font-size: 24px;
+}
+
+/* Исправленные базовые цвета */
+.green { color: green; }
+.red { color: red; }
+.blue { color: blue; }
+
+/* Удален невалидный селектор 11.green */
+/* Вместо него используем существующие правила */
+
+/* Цвета для элементов списка */
+li.green { /* Добавлен отсутствующий селектор */
+    color: red;
+}
+li.red {
+    color: blue;
+}
+li.blue {
+    color: green;
+}
+
+/* Стили для вложенных списков */
+ul ol li.red {
+    color: cyan;
+}
+ul ol li.green {
+    color: orange;
+}
+ul ol li.blue {
+    color: magenta;
+}
+
+/* Исправленные стили текста */
+p.italic {
+    font-style: italic; /* Исправлено свойство */
+}
+p.bold {
+    font-weight: bold; /* Исправлено свойство */
+}

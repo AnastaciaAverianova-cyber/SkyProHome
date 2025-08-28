@@ -1,0 +1,11 @@
+body {
+    font-size: 1.5rem;
+}
+
+.text-error {
+    color: red;
+}
+
+.text-success {
+    color: green;
+}
