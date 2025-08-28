@@ -1,2 +1,1 @@
-# SkyProHome
-Пример простой веб-страницы
+#html_sample
